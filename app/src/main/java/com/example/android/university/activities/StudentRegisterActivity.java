@@ -1,10 +1,12 @@
-package com.example.android.university;
+package com.example.android.university.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.android.university.R;
 
 public class StudentRegisterActivity extends AppCompatActivity {
 
