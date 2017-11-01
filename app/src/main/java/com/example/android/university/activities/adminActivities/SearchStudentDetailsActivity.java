@@ -1,4 +1,4 @@
-package com.example.android.university.activities;
+package com.example.android.university.activities.adminActivities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.android.university.R;
+import com.example.android.university.activities.studentActivities.StudentRegisterActivity;
 
 public class SearchStudentDetailsActivity extends AppCompatActivity {
 
@@ -33,7 +34,8 @@ public class SearchStudentDetailsActivity extends AppCompatActivity {
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(SearchStudentDetailsActivity.this, StudentRegisterActivity.class);
+                startActivity(intent);
             }
         });
 

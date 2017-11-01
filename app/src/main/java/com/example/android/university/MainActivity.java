@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.android.university.activities.LoginActivity;
+import com.example.android.university.activities.commonActivities.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 

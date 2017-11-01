@@ -1,4 +1,4 @@
-package com.example.android.university.activities;
+package com.example.android.university.activities.commonActivities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.android.university.R;
+import com.example.android.university.activities.studentActivities.StudentLoginActivity;
 
 public class LoginActivity extends AppCompatActivity {
 

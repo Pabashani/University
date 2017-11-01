@@ -34,7 +34,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String KEY_STD_ID = "std_id";
     private static final String KEY_STD_NAME = "std_name";
     private static final String KEY_STD_ACC_PASSWORD = "std_password";
-    private static final String KEY_YEAR = "std_year";
+    private static final String KEY_REG_DATE = "std_reg_date";
+    private static final String KEY_EXP_DATE = "std_exp_date";
 
     // TABLE_LECTURER = "lecturer" Table - column names
     private static final String KEY_LEC_ID = "lec_id";
@@ -59,8 +60,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     // CREATE_TABLE_STUDENT create statement
     private static final String CREATE_TABLE_STUDENT = "CREATE TABLE "
             + TABLE_STUDENT + "(" + KEY_STD_ID + " TEXT PRIMARY KEY," + KEY_STD_NAME
-            + " TEXT," + KEY_STD_ACC_PASSWORD + " TEXT," + KEY_YEAR
-            + " INTEGER" + ")";
+            + " TEXT," + KEY_STD_ACC_PASSWORD + " TEXT," + KEY_REG_DATE
+            + " DATE" + KEY_EXP_DATE + "DATE" + ")";
 
     // CREATE_TABLE_LECTURER create statement
     private static final String CREATE_TABLE_LECTURER = "CREATE TABLE " + TABLE_LECTURER
